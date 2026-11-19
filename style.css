@@ -1,3 +1,93 @@
-/* TODO: оформите отчёт без Flexbox и Grid.
-   Нужны минимум три классовых селектора, цвета, padding, border и margin.
-   Карточки сводки и строки участников должны отличаться от фона страницы. */
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #253044;
+  background-color: #edf1f5;
+}
+
+h1 {
+  margin: 0 0 24px;
+  font-size: 28px;
+}
+
+h2 {
+  margin: 0 0 16px;
+  font-size: 22px;
+}
+
+.report {
+  max-width: 760px;
+  margin: 12px auto;
+  padding: 24px;
+  border: 1px solid #ccd5df;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.summary {
+  margin-bottom: 28px;
+}
+
+.summary-card {
+  margin: 0 0 10px;
+  padding: 12px 16px;
+  border: 1px solid #c8d6e8;
+  border-radius: 4px;
+  background-color: #eef4fc;
+}
+
+form {
+  margin-bottom: 16px;
+  padding: 12px;
+  border: 1px solid #ccd5df;
+  border-radius: 4px;
+  background-color: #f4f6f8;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+select {
+  max-width: 100%;
+  margin: 0 8px 8px 0;
+  padding: 8px;
+  font: inherit;
+  color: #253044;
+  border: 1px solid #aab8ca;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+button {
+  padding: 8px 16px;
+  font: inherit;
+  color: #ffffff;
+  border: 1px solid #2357a0;
+  border-radius: 4px;
+  background-color: #2c63b1;
+  cursor: pointer;
+}
+
+.result-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.result-item {
+  margin-bottom: 10px;
+  padding: 12px 16px;
+  border: 1px solid #d1dae5;
+  border-radius: 4px;
+  background-color: #f8fafc;
+}
+
+.result-name {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
